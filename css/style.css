@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "SpoqaHanSansNeo-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --color-black: black;
+  --color-purple: #8e7be3;
+  --color-blue: #1f90fc;
+  --color-white: #f9fafb;
+}
+html {
+  font-size: 16px;
+  height: 100vh;
+  line-height: 130%;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 70%;
+  height: auto;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* header */
+.header-wrapper {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-menu {
+  display: flex;
+}
+
+.nav-sub__logo a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-size: 1.4em;
+  color: black;
+}
+.nav-item {
+  font-family: "SpoqaHanSansNeo-Regular";
+  padding-left: 4em;
+  opacity: 0.85;
+  font-size: 15px;
+}
+.header-title-eng {
+  line-height: 150%;
+  font-size: 0.875em;
+  margin-bottom: 3.75em;
+}
+.header-title {
+  font-size: 3rem;
+  line-height: 130%;
+  font-weight: 700;
+  color: #1f90fc;
+}
+.header-title-sub {
+  font-family: "SpoqaHanSansNeo-Regular";
+  font-size: 1.063em;
+  font-weight: bold;
+  margin-top: 0.875em;
+  margin-bottom: 1.5em;
+  opacity: 0.85;
+}
+.header-btn {
+  all: unset;
+  padding: 0.5em 1.5em;
+  width: 10.625em;
+  height: 44px;
+  background-color: #1f90fc;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-btn i {
+  font-size: xx-large;
+  text-align: center;
+  position: relative;
+  bottom: 14%;
+  margin-left: 3px;
+}
