@@ -48,6 +48,7 @@ img {
 .section-title-sub {
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  margin-top: 14px;
 }
 /* header */
 .header-wrapper {
@@ -121,15 +122,13 @@ img {
 /* summary */
 section {
   height: 100vh;
+  width: 100%;
 }
 #summary .section-title {
   margin-bottom: 4.5em;
 }
 /* intro */
 
-#intro .section-title {
-  margin-bottom: 14px;
-}
 #intro .text {
   margin-top: 6em;
   margin-bottom: 4em;
@@ -140,10 +139,11 @@ section {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  flex-wrap: wrap;
 }
 .circle-item {
-  width: 14em;
-  height: 14em;
+  width: 13.5em;
+  height: 13.5em;
   background-color: var(--color-purple);
   border-radius: 50%;
   display: flex;
@@ -158,4 +158,13 @@ section {
   line-height: 160%;
   text-align: center;
   font-weight: 600;
+}
+/* article */
+
+.graph-img {
+  max-width: 600px;
+  max-height: 400px;
+  margin-top: 5.875em;
+  margin-bottom: 4em;
+  transform: translateX(46%);
 }
