@@ -38,6 +38,7 @@ img {
   color: #1f90fc;
   padding-top: 2em;
   font-weight: 700;
+  line-height: 130%;
 }
 .text {
   font-family: "Montserrat", sans-serif;
@@ -47,10 +48,11 @@ img {
   text-align: start;
 }
 .section-title-sub {
-  font-family: "Montserrat", sans-serif;
+  font-family: "SpoqaHanSansNeo-Regular";
   text-align: center;
   margin-top: 14px;
   line-height: 140%;
+  opacity: 0.85;
 }
 /* header */
 .header-wrapper {
@@ -78,7 +80,7 @@ img {
   opacity: 0.85;
 }
 .nav-item {
-  font-family: "SpoqaHanSansNeo-Regular";
+  font-family: "Montserrat", sans-serif;
   padding-left: 4em;
   opacity: 0.85;
   font-size: 15px;
@@ -96,8 +98,8 @@ img {
 }
 .header-title-sub {
   font-family: "SpoqaHanSansNeo-Regular";
+  font-weight: 400;
   font-size: 1.063em;
-  font-weight: bold;
   margin-top: 0.875em;
   margin-bottom: 1.5em;
   opacity: 0.85;
@@ -194,4 +196,50 @@ section {
 }
 .article-img {
   margin-top: 200px;
+}
+/* table */
+.table-items {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.item {
+  min-width: 350px;
+  max-width: 350px;
+  margin: 0 0.5em;
+  padding: 1.5em;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-white);
+}
+
+.item-list {
+  font-size: 15px;
+  text-align: start;
+  line-height: 160%;
+  margin-top: 1.2em;
+  display: flex;
+  opacity: 0.85;
+}
+.logo {
+  margin-bottom: 4px;
+  width: 26%;
+  padding-bottom: 20px;
+}
+.logo-name {
+  opacity: 0.65;
+  padding-bottom: 8px;
+  text-align: center;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
+}
+
+.item-list::before {
+  content: "◾️";
+  margin-right: 0.5em;
+  font-size: 0.8rem;
+  opacity: 0.65;
 }
