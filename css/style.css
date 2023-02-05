@@ -146,8 +146,8 @@ section {
   flex-wrap: wrap;
 }
 .circle-item {
-  width: 13.5em;
-  height: 13.5em;
+  width: 13em;
+  height: 13em;
   background-color: var(--color-purple);
   border-radius: 50%;
   display: flex;
@@ -242,4 +242,13 @@ section {
   margin-right: 0.5em;
   font-size: 0.8rem;
   opacity: 0.65;
+}
+
+/* conclusion */
+.con-wrapper {
+  margin-top: 100px;
+  line-height: 160%;
+}
+.con-title::before {
+  content: "◾️";
 }
