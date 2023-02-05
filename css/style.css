@@ -44,11 +44,13 @@ img {
   font-size: 1.125em;
   line-height: 160%;
   opacity: 0.85;
+  text-align: start;
 }
 .section-title-sub {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   margin-top: 14px;
+  line-height: 140%;
 }
 /* header */
 .header-wrapper {
@@ -73,6 +75,7 @@ img {
   text-decoration: none;
   font-size: 1.4em;
   color: black;
+  opacity: 0.85;
 }
 .nav-item {
   font-family: "SpoqaHanSansNeo-Regular";
@@ -138,7 +141,6 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
   flex-wrap: wrap;
 }
 .circle-item {
@@ -149,8 +151,8 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-shrink: 0;
   margin: 0 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .circle-item__text {
   font-size: 18px;
@@ -160,11 +162,36 @@ section {
   font-weight: 600;
 }
 /* article */
-
+.article {
+  text-align: center;
+}
 .graph-img {
   max-width: 600px;
   max-height: 400px;
   margin-top: 5.875em;
   margin-bottom: 4em;
-  transform: translateX(46%);
+}
+/* theory */
+#theory {
+  text-align: center;
+}
+.phone-img {
+  margin-top: 90px;
+  margin-bottom: 40px;
+  max-width: 450px;
+}
+#theory .text {
+  text-align: center;
+}
+.sign {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--color-purple);
+}
+.circle-article {
+  margin-top: 170px;
+  margin-bottom: 90px;
+}
+.article-img {
+  margin-top: 200px;
 }
