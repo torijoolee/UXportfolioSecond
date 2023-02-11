@@ -252,3 +252,16 @@ section {
 .con-title::before {
   content: "◾️";
 }
+.circle-item img {
+  width: 60px;
+  height: 60px;
+}
+.circle-article .circle-item {
+  display: flex;
+  flex-direction: column;
+}
+.circle-item .fa-regular {
+  font-size: xx-large;
+  color: white;
+  margin-bottom: 10px;
+}
