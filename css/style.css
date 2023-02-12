@@ -79,12 +79,18 @@ img {
   font-size: 1.4em;
   color: black;
   opacity: 0.85;
+  line-height: 140%;
 }
 .nav-item {
+  cursor: pointer;
   font-family: "Montserrat", sans-serif;
   padding-left: 4em;
   opacity: 0.85;
   font-size: 15px;
+}
+.nav-item:hover {
+  opacity: 1;
+  color: var(--color-purblue);
 }
 .header-title-eng {
   line-height: 150%;
@@ -125,6 +131,9 @@ img {
   bottom: 14%;
   margin-left: 3px;
 }
+.fa-envelope {
+  opacity: 0.65;
+}
 /* summary */
 section {
   height: 100vh;
@@ -156,6 +165,7 @@ section {
   align-items: center;
   margin: 0 0.5rem;
   margin-bottom: 0.5rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 .circle-item__text {
   font-size: 18px;
@@ -216,6 +226,7 @@ section {
   display: flex;
   flex-direction: column;
   background-color: var(--color-white);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .item-list {
@@ -283,6 +294,7 @@ section {
   display: flex;
   margin: 0 8px;
   border-radius: 0.5em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 .box-con {
   height: 80%;
