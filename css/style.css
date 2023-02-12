@@ -245,7 +245,7 @@ section {
   opacity: 0.65;
 }
 
-/* conclusion */
+/* result */
 .con-wrapper {
   margin-top: 100px;
   line-height: 160%;
@@ -307,7 +307,35 @@ section {
   margin-bottom: 20px;
   color: var(--color-purple);
 }
+
 .fa-chevron-right {
   color: var(--color-purple);
   opacity: 0.65;
+}
+
+/* conclusion */
+.conclu-head {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--color-purple);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+.conclu-head span {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+.head-text {
+  font-weight: 700;
+  margin-bottom: 10px;
+  opacity: 0.85;
+}
+.conclu-content {
+  display: flex;
+  margin-bottom: 40px;
 }
