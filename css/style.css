@@ -63,6 +63,9 @@ section {
   line-height: 140%;
   opacity: 0.85;
 }
+.mobile {
+  display: none;
+}
 /* header */
 .header-wrapper {
   font-family: "Montserrat", sans-serif;
@@ -231,12 +234,10 @@ section {
   font-weight: 400;
   display: flex;
   justify-content: center;
-
   margin-top: 60px;
 }
 
 .item {
-  min-width: 350px;
   max-width: 350px;
   margin: 0 0.5em;
   padding: 1.5em;
