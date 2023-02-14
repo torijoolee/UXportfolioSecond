@@ -66,6 +66,9 @@ section {
 .mobile {
   display: none;
 }
+.tablet {
+  display: none;
+}
 /* header */
 .header-wrapper {
   font-family: "Montserrat", sans-serif;
