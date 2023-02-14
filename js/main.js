@@ -5,6 +5,14 @@
   let currentPage = 0;
   const totalPage = sectionElems.length;
 
+  //스크롤이 움직여 나온 화면의 dataset을 출력한다
+  //현재 페이지 = dataset.
+
+  window.addEventListener("scroll", function () {
+    let step;
+  });
+
+  // when button clicked Scroll to  page up and down
   for (i = 0; i < totalPage; i++) {
     sectionElems[i] = i;
     sectionElems[i].dataset.index = i;

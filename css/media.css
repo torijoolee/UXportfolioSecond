@@ -1,0 +1,34 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+  section {
+    margin-bottom: 10%;
+  }
+  .circle-items__wrapper {
+    width: 80%;
+  }
+
+  section {
+    height: min-content;
+    background-color: #fff;
+  }
+  img {
+    width: 100%;
+  }
+}
+@media (max-width: 960px) {
+  .nav-item {
+    display: none;
+  }
+  .fa-chevron-right {
+    display: none;
+  }
+  .box-item {
+    width: 42.5%;
+    margin-bottom: 10px;
+  }
+  .table-items {
+    flex-direction: column;
+  }
+}

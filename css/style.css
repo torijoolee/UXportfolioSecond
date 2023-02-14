@@ -27,42 +27,13 @@ img {
   height: auto;
 }
 body {
-  /* overflow: hidden; */
   transition: all 1.5s ease-in-out;
 }
-.container-Btn {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  justify-content: flex-end;
-  align-items: flex-end;
-  height: 100vh;
-  width: 100vw;
-  z-index: 100;
-}
-.con-Btn {
-  all: unset;
-  position: fixed;
-  margin-right: 2%;
-  margin-bottom: 2%;
-  width: 80px;
-  height: 80px;
-  background-color: var(--color-white);
-  border-radius: 50%;
-  text-align: center;
-}
-.con-Btn i {
-  font-size: x-large;
-  color: black;
-  opacity: 0.2;
-}
-.prevBtn {
-  bottom: 12%;
-}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 1rem 1rem;
 }
 section {
   width: 100%;
@@ -176,6 +147,9 @@ section {
   height: 100vh;
   width: 100%;
 }
+#summary {
+  height: 100vh;
+}
 #summary .section-title {
   margin-bottom: 4.5em;
 }
@@ -191,6 +165,7 @@ section {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin: auto;
 }
 .circle-item {
   width: 13em;
@@ -217,9 +192,12 @@ section {
 }
 .graph-img {
   max-width: 600px;
-  max-height: 400px;
   margin-top: 5.875em;
   margin-bottom: 4em;
+}
+.honeycom {
+  max-height: 400px;
+  max-width: fit-content;
 }
 /* theory */
 #theory {
@@ -231,7 +209,7 @@ section {
   max-width: 450px;
 }
 #theory .text {
-  text-align: center;
+  text-align: start;
 }
 .sign {
   font-size: 3rem;
@@ -321,6 +299,7 @@ section {
 
 .box-wrapper {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -329,6 +308,8 @@ section {
   width: 164px;
   background-color: var(--color-white);
   display: flex;
+  flex-wrap: wrap;
+
   margin: 0 8px;
   border-radius: 0.5em;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -366,6 +347,9 @@ section {
 }
 
 /* conclusion */
+#conclu {
+  margin-bottom: 10%;
+}
 .conclu-head {
   width: 30px;
   height: 30px;
