@@ -79,6 +79,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
+a {
+  text-decoration: none;
+}
 .nav-menu {
   display: flex;
 }
@@ -94,13 +97,17 @@ body {
 .nav-item {
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
-  padding-left: 4em;
+  margin: 0 1em;
   opacity: 0.85;
   font-size: 15px;
+  padding: 0.5rem 1rem;
+  border: 1.5px solid transparent;
+  border-radius: 10px;
 }
 .nav-item:hover {
   opacity: 1;
   color: var(--color-purblue);
+  border: 1.5px solid var(--color-purblue);
 }
 .header-title-eng {
   line-height: 150%;
