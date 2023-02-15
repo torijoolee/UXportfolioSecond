@@ -97,6 +97,9 @@
   .container {
     max-width: 1000px;
   }
+  section {
+    height: 50vw;
+  }
 
   section {
     height: min-content;
@@ -108,10 +111,6 @@
   .circle-items__wrapper {
     flex-wrap: wrap;
     width: 80%;
-  }
-}
-@media (max-width: 1600px) {
-  section {
-    height: 80vh;
+    height: 50vw;
   }
 }
