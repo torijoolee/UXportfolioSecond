@@ -15,15 +15,15 @@
   margin-bottom: 2%; */
   width: 80px;
   height: 80px;
-  background-color: var(--color-white);
+  background-color: var(--color-purple);
   border-radius: 50%;
   text-align: center;
 }
 .con-Btn i {
   font-size: x-large;
-  color: black;
-  opacity: 0.2;
+  color: var(--color-white);
 }
 .prevBtn {
-  bottom: 12%;
+  bottom: 6%;
+  right: 4%;
 }
