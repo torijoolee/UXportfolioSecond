@@ -28,30 +28,29 @@ img {
 }
 body {
   max-width: 1440px;
-}
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem 1rem;
-}
-.scroll-container {
-  height: 100vh;
-  width: 100%;
-  scroll-snap-type: y mandatory;
-  overflow: hidden auto;
-}
-.scroll-container::-webkit-scrollbar {
-  display: none;
-}
-.scroll-container {
   scrollbar-width: none;
 }
 body::-webkit-scrollbar {
   display: none;
 }
-body {
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow: hidden auto;
+}
+/* .scroll-container {
+} */
+.container::-webkit-scrollbar {
+  display: none;
+}
+.container {
   scrollbar-width: none;
 }
+
 section {
   scroll-snap-align: start;
   height: 100vh;
@@ -102,18 +101,19 @@ section {
 }
 a {
   text-decoration: none;
-}
-.nav-menu {
-  display: flex;
+  color: black;
+  opacity: 0.85;
 }
 
-.nav-sub__logo a {
+.nav-sub a {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   font-size: 1.4rem;
   color: black;
-  opacity: 0.85;
+  opacity: 0.65;
   line-height: 140%;
+  cursor: pointer;
+  z-index: 100;
 }
 .nav-item {
   cursor: pointer;
@@ -149,12 +149,16 @@ a {
   margin-bottom: 1.5em;
   opacity: 0.85;
 }
+.link-btn {
+  position: relative;
+}
 .header-btn {
+  position: absolute;
   all: unset;
   padding: 0.5em 1.5em;
   width: 10.625em;
   height: 44px;
-  background-color: #6b74eb;
+  background: linear-gradient(#8991fc, #6b74eb);
   border-radius: 12px;
   text-align: center;
   color: white;
@@ -162,6 +166,10 @@ a {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  text-shadow: 0px 1.5px 0px #283966;
+  box-shadow: 0px 4px 16px (rgba(97, 24, 255, 0.3));
+
+  border-bottom: 4px solid #353b8f;
 }
 .header-btn i {
   font-size: xx-large;
@@ -169,9 +177,18 @@ a {
   position: relative;
   bottom: 14%;
   margin-left: 3px;
+  opacity: 0.85;
+}
+.header-btn:hover {
+  border-top: 4px solid #8991fc;
+
+  border-bottom: none;
 }
 .fa-envelope {
   opacity: 0.65;
+}
+.header a {
+  cursor: pointer;
 }
 /* summary */
 section {

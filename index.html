@@ -18,28 +18,19 @@
     ></script>
   </head>
   <body>
-    <!-- container-button-->
-    <div class="container-Btn">
-      <button class="con-Btn prevBtn">
-        <i class="fas fa-long-arrow-up"></i>
-      </button>
-    </div>
     <!-- header -->
     <div class="container">
-      <div class="header-wrapper">
+      <section class="header-wrapper">
         <nav class="navbar">
           <div class="nav-sub">
-            <div class="nav-sub__logo">
-              <a href="#">Digital Convergence</a>
-            </div>
+            <a
+              target="_blank"
+              href="https://koreascience.kr/article/JAKO201831349947685.pdf"
+              class="nav-sub__logo"
+            >
+              Digital Convergence
+            </a>
           </div>
-          <ul class="nav-menu">
-            <li class="nav-item" data-link="#summary">요약</li>
-            <li class="nav-item" data-link="#intro">서론</li>
-            <li class="nav-item" data-link="#theory">이론적 배경</li>
-            <li class="nav-item" data-link="#result">실험 방법/분석 결과</li>
-            <li class="nav-item" data-link="#conclu">결론</li>
-          </ul>
         </nav>
         <div class="header">
           <h1 class="header-title">
@@ -54,15 +45,21 @@
             Based on Mobile Application<br />
             Focused on Shinhan and Samsung
           </p>
-          <a href="https://koreascience.kr/article/JAKO201831349947685.pdf">
-            <button class="header-btn">go to link <i>⟶</i></button>
+        </div>
+        <div class="link-btn">
+          <a
+            class="header-btn"
+            target="_blank"
+            href="https://koreascience.kr/article/JAKO201831349947685.pdf"
+          >
+            <span>go to link</span><i>⟶</i>
           </a>
         </div>
         <div class="contact-mail">
           <i class="fa-regular fa-envelope"></i>
           <span>leekj951008@gmail.com</span>
         </div>
-      </div>
+      </section>
       <div class="scroll-container">
         <!-- summary -->
         <section id="summary" class="section">
@@ -417,6 +414,12 @@
           </div>
         </section>
       </div>
+    </div>
+    <!-- container-button-->
+    <div class="container-Btn">
+      <button class="con-Btn prevBtn">
+        <i class="fas fa-long-arrow-up"></i>
+      </button>
     </div>
 
     <script src="js/main.js"></script>
