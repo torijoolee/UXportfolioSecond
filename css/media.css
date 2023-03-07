@@ -88,8 +88,19 @@
   }
 }
 @media (max-width: 500px) {
+  body {
+    min-width: 500px;
+  }
+  .container {
+    scroll-snap-type: none;
+  }
   #summary {
     height: 70vh;
+  }
+  #intro {
+    height: fit-content;
+  }
+  #intro .circle-items__wrapper {
   }
   .text {
     font-size: 16px;
@@ -103,11 +114,20 @@
   .nav-sub__logo a {
     font-size: 16px;
   }
+  #theory {
+    height: 85vh;
+  }
   .phone-img {
     max-width: 350px;
   }
   .circle-article {
     margin-top: 85px;
+  }
+  #result {
+    height: fit-content;
+  }
+  #conclu {
+    height: fit-content;
   }
   .conclu-content {
     display: flex;
