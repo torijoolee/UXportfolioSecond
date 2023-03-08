@@ -10,6 +10,7 @@
   .container {
     max-width: 1000px;
   }
+
   section {
     height: 90vh;
     background-color: #fff;
@@ -26,6 +27,9 @@
   .circle-items__wrapper {
     flex-wrap: wrap;
     width: 90%;
+  }
+  #intro {
+    height: fit-content;
   }
   section {
     height: 100%;

@@ -35,11 +35,8 @@ body {
 
 .container {
   padding: 1rem 1rem;
-  /* scroll-snap-type: y mandatory; */
   max-width: 1200px;
   margin: 0 auto;
-  /* overflow: auto; */
-  /* height: 100vh; */
 }
 /* progress-bar */
 .progress-bar-con {
@@ -47,8 +44,9 @@ body {
   top: 0;
   left: 0;
   height: 5px;
-  width: 100vw;
+  width: 100%;
   background-color: #555;
+  z-index: 900;
 }
 .progress-bar {
   height: 5px;
@@ -58,19 +56,9 @@ body {
 }
 section {
   opacity: 0;
-  transition: all 1.5s ease-in-out;
+  transform: translateY(50px);
+  transition: all 1s ease-in-out;
 }
-
-/* .scroll-wrap ::-webkit-scrollbar,
-.container::-webkit-scrollbar,
-section::-webkit-scrollbar {
-  display: none;
-}
-.scroll-wrap,
-.container,
-section {
-  scrollbar-width: none;
-} */
 
 .section-title {
   text-align: center;
@@ -210,12 +198,10 @@ section {
   height: 100vh;
   width: 100%;
 }
-.section {
-  height: 100vh;
+
+#summary {
+  height: 75vh;
 }
-/* #summary {
-  height: 100vh;
-} */
 #summary .section-title {
   margin-bottom: 4.5em;
 }
